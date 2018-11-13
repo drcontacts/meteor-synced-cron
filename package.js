@@ -1,8 +1,8 @@
 Package.describe({
-  summary: 'Fork of original w/ timezone support. Define and run scheduled jobs across multiple servers.',
-  version: '1.2.11',
-  name: 'saucecode:timezoned-synced-cron',
-  git: 'https://github.com/thesaucecode/meteor-synced-cron.git'
+  summary: 'Fork of original w/ timezone support and node mongo driver v3 support. Define and run scheduled jobs across multiple servers.',
+  version: '1.2.12',
+  name: 'flean:timezoned-synced-cron',
+  git: 'https://github.com/flean/meteor-synced-cron'
 });
 
 Npm.depends({later: '1.1.6', timezone:'0.0.41'});
