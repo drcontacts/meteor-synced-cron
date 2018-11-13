@@ -1,5 +1,5 @@
 Package.describe({
-  summary: 'Fork of original w/ timezone support and node mongo driver v3 support. Define and run scheduled jobs across multiple servers.',
+  summary: 'Fork of original w/ timezone + node mongo driver v3 support. Scheduled jobs across multiple servers.',
   version: '1.2.12',
   name: 'flean:timezoned-synced-cron',
   git: 'https://github.com/flean/meteor-synced-cron'

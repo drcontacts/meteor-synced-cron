@@ -1,10 +1,15 @@
 {
+  "lockfileVersion": 1,
   "dependencies": {
     "later": {
-      "version": "1.1.6"
+      "version": "1.1.6",
+      "resolved": "https://registry.npmjs.org/later/-/later-1.1.6.tgz",
+      "integrity": "sha1-Wvg61IJjk8VvEO4u4ekQlkRb5Os="
     },
     "timezone": {
-      "version": "0.0.41"
+      "version": "0.0.41",
+      "resolved": "http://registry.npmjs.org/timezone/-/timezone-0.0.41.tgz",
+      "integrity": "sha1-4yx+tUky4plJ1E5OfKkRmcs0XAo="
     }
   }
 }
