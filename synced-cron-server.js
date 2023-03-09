@@ -266,6 +266,10 @@ SyncedCron._entryWrapper = function(entry) {
   var self = this;
 
   return function(intendedAt) {
+    intendedAt = new Date(intendedAt.getTime());
+    intendedAt.setMilliseconds(0);
+    intendedAt.setSeconds(0);
+
     var jobHistory = {
       intendedAt: intendedAt,
       name: entry.name,
