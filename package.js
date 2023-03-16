@@ -1,6 +1,6 @@
 Package.describe({
   summary: 'Fork of original w/ timezone + node mongo driver v3 support. Scheduled jobs across multiple servers.',
-  version: '1.2.21',
+  version: '1.2.22',
   name: 'drcontacts:timezoned-synced-cron',
   git: 'https://github.com/drcontacts/meteor-synced-cron'
 });
