@@ -1,8 +1,8 @@
 Package.describe({
   summary: 'Fork of original w/ timezone + node mongo driver v3 support. Scheduled jobs across multiple servers.',
-  version: '1.2.12',
-  name: 'flean:timezoned-synced-cron',
-  git: 'https://github.com/flean/meteor-synced-cron'
+  version: '1.2.13',
+  name: 'drcontacts:timezoned-synced-cron',
+  git: 'https://github.com/drcontacts/meteor-synced-cron'
 });
 
 Npm.depends({later: '1.1.6', timezone:'0.0.41'});
