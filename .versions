@@ -11,7 +11,7 @@ ddp-client@2.6.1
 ddp-common@1.4.0
 ddp-server@2.6.0
 diff-sequence@1.1.2
-diogol:timezoned-synced-cron@1.2.13
+drcontacts:timezoned-synced-cron@1.2.13
 dynamic-import@0.7.2
 ecmascript@0.16.6
 ecmascript-runtime@0.8.0
@@ -22,7 +22,7 @@ fetch@0.1.3
 geojson-utils@1.0.11
 id-map@1.1.1
 inter-process-messaging@0.1.1
-local-test:diogol:timezoned-synced-cron@1.2.13
+local-test:drcontacts:timezoned-synced-cron@1.2.13
 logging@1.3.2
 meteor@1.11.1
 minimongo@1.9.2
