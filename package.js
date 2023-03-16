@@ -1,6 +1,6 @@
 Package.describe({
   summary: 'Fork of original w/ timezone + node mongo driver v3 support. Scheduled jobs across multiple servers.',
-  version: '1.2.13',
+  version: '1.2.15',
   name: 'drcontacts:timezoned-synced-cron',
   git: 'https://github.com/drcontacts/meteor-synced-cron'
 });
@@ -15,6 +15,6 @@ Package.onUse(function(api) {
 });
 
 Package.onTest(function(api) {
-  api.use(['saucecode:timezoned-synced-cron', 'tinytest']);
+  api.use(['drcontacts:timezoned-synced-cron', 'tinytest']);
   api.addFiles('synced-cron-tests.js', ['server']);
 });
